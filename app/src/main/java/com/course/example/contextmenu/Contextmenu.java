@@ -37,6 +37,8 @@ public class Contextmenu extends Activity {
 	public void onCreateContextMenu(ContextMenu menu, View v,
 			ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
+
+		//switch on which image is selected
 		switch (v.getId()) {
 		case R.id.image1:
 			// add a couple of options to the context menu
@@ -61,8 +63,10 @@ public class Contextmenu extends Activity {
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
 		super.onContextItemSelected(item);
+
 		String title = item.getTitle().toString(); // get menu item title
 		int itemId = item.getItemId(); // get menu item id
+		//switch on which image is selected
 		switch (item.getGroupId()) {
 
 		case 0:
