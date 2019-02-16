@@ -46,6 +46,8 @@ public class Contextmenu extends Activity {
 			break;    
 
 		case R.id.image2: {
+			// add a couple of options to the context menu
+			menu.setHeaderTitle("Select Extra Special Action");
 			menu.add(1, PICK1, Menu.NONE, "Option-1 ONE ");
 			menu.add(1, PICK2, Menu.NONE, "Option-2 TWO ");
 			menu.add(1, PICK3, Menu.NONE, "Option-3 THREE ");
