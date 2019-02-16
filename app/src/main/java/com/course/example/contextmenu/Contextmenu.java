@@ -14,10 +14,10 @@ public class Contextmenu extends Activity {
 
 	private ImageView ImView1, ImView2;
 
-	final int PICK1 = Menu.FIRST + 1;
-	final int PICK2 = Menu.FIRST + 2;
-	final int PICK3 = Menu.FIRST + 3;
-	final int PICK4 = Menu.FIRST + 4;
+	final int PICK1 = Menu.FIRST;
+	final int PICK2 = Menu.FIRST + 1;
+	final int PICK3 = Menu.FIRST + 2;
+	final int PICK4 = Menu.FIRST + 3;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
