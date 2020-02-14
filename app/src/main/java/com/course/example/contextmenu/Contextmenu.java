@@ -43,17 +43,17 @@ public class Contextmenu extends Activity {
 		case R.id.image1:
 			// add a couple of options to the context menu
 			menu.setHeaderTitle("Select Special Action");
-			menu.add(0, PICK1, Menu.NONE, "Option-1 ONE ");
-			menu.add(0, PICK2, Menu.NONE, "Option-2 TWO ");
+			menu.add(0, PICK1, Menu.NONE, "Option-1 Study ");
+			menu.add(0, PICK2, Menu.NONE, "Option-2 Sleep ");
 			break;    
 
 		case R.id.image2: {
 			// add a couple of options to the context menu
 			menu.setHeaderTitle("Select Extra Special Action");
-			menu.add(1, PICK1, Menu.NONE, "Option-1 ONE ");
-			menu.add(1, PICK2, Menu.NONE, "Option-2 TWO ");
-			menu.add(1, PICK3, Menu.NONE, "Option-3 THREE ");
-			menu.add(1, PICK4, Menu.NONE, "Option-4 FOUR ");
+			menu.add(1, PICK1, Menu.NONE, "Option-1 Run ");
+			menu.add(1, PICK2, Menu.NONE, "Option-2 Walk ");
+			menu.add(1, PICK3, Menu.NONE, "Option-3 Swim ");
+			menu.add(1, PICK4, Menu.NONE, "Option-4 Fly ");
 			break;
 		}
 
